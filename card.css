@@ -1,0 +1,37 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url("green.png");
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+  display: flex;
+        flex-direction: column;
+        justify-content: center;  
+        align-items: center;      
+        min-height: 100vh;       
+    
+    
+}
+
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+
+button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
